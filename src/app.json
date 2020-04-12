@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/business/main",
+    "pages/charge/main",
+    "pages/bindPhone/main",
+    "pages/faultHandling/main",
+    "pages/chargeOrderList/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/home/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "业务",
+      "pagePath": "pages/business/main",
+      "iconPath": "static/tabs/business.png",
+      "selectedIconPath": "static/tabs/business-active.png"
+    }],
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/home/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, {
+      "name": "业务",
+      "pagePath": "pages/business/main",
+      "icon": "static/tabs/business.png",
+      "activeIcon": "static/tabs/business-active.png"
+    }],
+    "position": "bottom"
+  }
+}
